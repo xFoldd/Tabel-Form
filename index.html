@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabel HTML</title>
+</head>
+    <body>
+        <form>
+            <h1 align="center">Form Input Mahasiswa</h1>
+            <Table border="1" cellspacing="0" width="50%" cellpadding="10">
+                <tr>
+                    <td>
+                        <p>NIM</p>
+                    </td>
+                    <td> : </td>
+                    <td> <input type="text" placeholder="Silahkan masukan NIM"> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Nama</p>
+                    </td>
+                    <td> : </td>
+                    <td> <input type="text" placeholder="Silahkan masukan Nama"> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Alamat</p>
+                    </td>
+                    <td> : </td>
+                    <td> <textarea rows="5" cols="30" placeholder="Silahkan masukan Alamat"></textarea> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Program Studi</p>
+                    </td>
+                    <td> : </td>
+                    <td>
+                        <select nama="Prodi">
+                            <option value="Ti">Teknik Informatika</option>
+                            <option value="Ftv">Film & Televisi</option>
+                            <option value="Si">Sistem Informasi</option>
+                            <option value="Anm">Animasi</option>
+                            <option value="Dkv">Desain Komunikasi Visual</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Jenis Kelamin</p>
+                    </td>
+                    <td> : </td>
+                    <td>
+                        <input type="radio" name="L" value="Laki-Laki"> Laki-Laki
+                        <input type="radio" name="P" value="Perempuan"> Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Nomor HP</p>
+                    </td>
+                    <td> : </td>
+                    <td> <textarea rows="5" cols="30" placeholder="Masukan NomorHP"></textarea> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Dosen Wali</p>
+                    </td>
+                    <td> : </td>
+                    <td> <input type="text" placeholder="Masukan Dosen Wali"> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Dosen Pembimbing</p>
+                    </td>
+                    <td> : </td>
+                    <td> <input type="text" placeholder="Masukan Dosen Pembimbing"> </td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="margin-right">
+                        <p><input type="checkbox" name="Konfirmasi">Saya setuju dengan syarat dan ketentuan</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center">
+                    <button style="margin-right: 15px;" type="submit" value="kirim">Kirim
+                    <button style="margin-right: 15px;" type="submit" value="reset">Reset</td>
+                </tr>
+            </table>
+        </form>
+
+        <br><br>
+        <h1 align="center">Tabel Mahasiswa</h1>
+        <table border="1" cellspacing="0" width="100%" cellpadding="10" >
+            <tr>
+                <th rowspan="2">NIM</th>
+                <th rowspan="2">Nama</th>
+                <th rowspan="2">Alamat</th>
+                <th rowspan="2">Program Studi</th>
+                <th rowspan="2">Jenis Kelamin</th>
+                <th rowspan="2">No. HP</th>
+                <th colspan="2">Dosen</th>
+            </tr>
+            <tr>
+                <th>Dosen Wali</th>
+                <th>Dosen Pembimbing</th>
+            </tr>
+            <tr>
+                <td valign="top">A11.2023.15042</td>
+                <td valign="top">Hafizh R</td>
+                <td valign="top">Jalan Nakula</td>
+                <td valign="top">Teknik Informatika</td>
+                <td valign="top">Laki-Laki</td>
+                <td>08123456789 <br>
+                08987654321 <br>
+                08765432109</td>
+                <td valign="top">Pak Budi</td>
+                <td valign="top">Pak Mada</td>
+            </tr>
+            <tr>
+                <td valign="top">A11.2023.15041</td>
+                <td valign="top">Hadi</td>
+                <td valign="top">Jalan Madukoro</td>
+                <td valign="top">Teknik Informatika</td>
+                <td valign="top">Laki-Laki</td>
+                <td>08123456789 <br>
+                08987654321 <br>
+                08765432109</td>
+                <td valign="top">Pak Jason</td>
+                <td valign="top">Pak Dean</td>
+            </tr>
+            <tr>
+                <td valign="top">A11.2023.15067</td>
+                <td valign="top">Yayan</td>
+                <td valign="top">Jalan Bima</td>
+                <td valign="top">Teknik Informatika</td>
+                <td valign="top">Laki-Laki</td>
+                <td>08123456789 <br>
+                0898765432 <br>
+                08765432109</td>
+                <td valign="top">Pak Kevin</td>
+                <td valign="top">Pak Bambang</td>
+            </tr>
+            <tr>
+                <td valign="top">A11.2023.15062</td>
+                <td valign="top">Arvin F</td>
+                <td valign="top">Jalan Nakula 1</td>
+                <td valign="top">Teknik Informatika</td>
+                <td valign="top">Laki-Laki</td>
+                <td>08123456789 <br>
+                08987654321 <br>
+                08765432109</td>
+                <td valign="top">Pak Aman</td>
+                <td valign="top">Pak Seti</td>
+            </tr>
+            <tr>
+                <td valign="top">A11.2023.15040</td>
+                <td valign="top">Haidar</td>
+                <td valign="top">Jalan Soekarno Hatta</td>
+                <td valign="top">Teknik Informatika</td>
+                <td valign="top">Laki-Laki</td>
+                <td>08123456789 <br>
+                08987654321 <br>
+                08765432109</td>
+                <td valign="top">Pak Vincent</td>
+                <td valign="top">Pak Anda</td>
+            </tr>
+        </table>
+    </body>
+</html>
